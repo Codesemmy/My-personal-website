@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="personal.jpg" alt="Slack Profile Picture" data-testid="slackProfilePicture" width="300" height="300">
+        <h1 data-testid="Ogunbajo Emmanuel" style="color: azure;">Ogunbajo Emmanuel</h1>
+    </header>
+    <main>
+        <section class="MyGoals">
+            <h2>My Tech Goals</h2>
+            <p>As I continue to grow and learn in the tech field, I've set ambitious goals for myself to achieve in the next 2 years.<br> My primary objective is to become a highly skilled developer, capable of making significant contributions to a large organization.<br> I aim to improve my coding skills, stay up-to-date with the latest technologies, <br>and develop a deeper understanding of software development principles and best practices.</p>
+            
+        </section>
+        <section class="contact">
+            <h2>Contact Mail</h2>
+            <p data-testid="slackEmail">Slack Email: <a href="mailto:ogunbajoemmanuel2020@gmail.com">Ogunbajoemmanuel2020@gmail.com</a></p>
+        </section>
+        <section class="date">
+            <h2>Current Time and Date</h2>
+            <p data-testid="currentTimeUTC">Current Time: <span id="currentTimeUTC"></span></p>
+            <p data-testid="currentDay">Current Day: <span id="currentDay"></span></p>
+        </section>
+        
+        <section class="links">
+            <h2>Useful Links</h2>
+            <ul>
+                <li><a href="https://hng.tech/learn" data-testid="hngLink">HNG Tech Learn</a></li>
+
+            </ul>
+        </section>
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
